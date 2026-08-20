@@ -1,0 +1,28 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Dataset and prediction artifacts are intentionally private
+data/*.csv
+!data/README.md
+outputs/*.csv
+!outputs/README.md
+train.csv
+test.csv
+sample_submission.csv
+*Submission*.csv
+
+# Serialized models
+*.joblib
+*.pkl
